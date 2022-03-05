@@ -61,15 +61,8 @@ body {
 
 /* КНОПКИ  */
 .btn {
-  color: var(--secondary-text-color);
-  background-color: #f5f4fa;
   font-family: inherit;
   cursor: pointer;
-}
-.btn:hover,
-.btn:focus {
-  color: #ffffff;
-  background-color: var(--accent-color);
 }
 
 /* ОСНОВНОЙ КОНТЕНТ СТРАНИЦЫ */
@@ -86,10 +79,17 @@ body {
   background-color: #2f303a;
 }
 .hero-btn {
+  color: #ffffff;
+  background-color: var(--accent-color);
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
 }
 .hero-title {
   color: #ffffff;
@@ -167,10 +167,18 @@ body {
 /* СЕКЦИЯ "ПОРТФОЛИО" */
 /* ФИЛЬТРЫ */
 .filter-btn {
+  color: var(--secondary-text-color);
+  background-color: #f5f4fa;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 /* ПРОЕКТЫ */
